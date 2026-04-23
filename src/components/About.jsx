@@ -1,5 +1,4 @@
 import React from 'react';
-import { ShieldCheck, Award, Zap } from 'lucide-react';
 import './About.css';
 
 const About = () => {
@@ -8,43 +7,16 @@ const About = () => {
       <div className="container">
         <div className="about-grid">
           <div className="about-content">
-            <h2 className="about-title">Redefining Commercial Laundry</h2>
+            <h2 className="about-title">About Us</h2>
             <div className="about-text-content">
               <p>
-                <strong>Washtec</strong> redefines commercial laundry equipment distribution with unmatched expertise and reliability. As the exclusive regional distributor for <span className="highlight">LG, Speed Queen, Pony, and IPSO</span>, we deliver advanced washers, dryers, and ironing systems designed to elevate performance across industries.
+                Washtec is your one-stop destination for commercial laundry excellence. We supply high-performance commercial washers, dryers, and ironing systems sourced from globally acclaimed brands including <span className="highlight">LG, Speed Queen, Pony, IPSO</span>. Whether you&apos;re setting up a new laundry store or upgrading an existing one, our team is committed to delivering dependable solutions and end-to-end support tailored to your business needs.
               </p>
-              <p>
-                Driven by innovation and commitment, we provide businesses with technology that ensures efficiency, durability, and long-term success in every laundry operation.
-              </p>
-            </div>
-            
-            <div className="features-grid">
-              <div className="feature-item">
-                <div className="feature-icon"><Award size={24} /></div>
-                <h4>Exclusive Distributor</h4>
-                <p>Authorized for top global brands.</p>
-              </div>
-              <div className="feature-item">
-                <div className="feature-icon"><Zap size={24} /></div>
-                <h4>Advanced Technology</h4>
-                <p>High efficiency and durability.</p>
-              </div>
-              <div className="feature-item">
-                <div className="feature-icon"><ShieldCheck size={24} /></div>
-                <h4>Unmatched Reliability</h4>
-                <p>Long-term success guaranteed.</p>
-              </div>
             </div>
           </div>
           <div className="about-image-wrapper">
             <div className="about-image glass-panel">
-              <div className="image-placeholder">
-                <img src="/hero_banner.png" alt="Commercial Laundry" className="about-img" />
-              </div>
-              <div className="experience-badge">
-                <span className="years">10+</span>
-                <span className="text">Years of<br/>Excellence</span>
-              </div>
+              <img src="/laundry.jpg" alt="Commercial Laundry" className="about-img" />
             </div>
           </div>
         </div>

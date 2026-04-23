@@ -1,10 +1,10 @@
 :root {
   /* Color Palette */
-  --primary: #005f73;
-  --primary-light: #0a9396;
-  --secondary: #94d2bd;
-  --accent: #e9d8a6;
-  --dark: #001219;
+  --primary: #a50034;
+  --primary-light: #c3003e;
+  --secondary: #ffd6e3;
+  --accent: #ff8fb1;
+  --dark: #1a040b;
   --light: #f8f9fa;
   --white: #ffffff;
   
@@ -18,7 +18,7 @@
   --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
   --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
   --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
-  --shadow-hover: 0 15px 30px rgba(0, 95, 115, 0.2);
+  --shadow-hover: 0 15px 30px rgba(165, 0, 52, 0.25);
   
   --radius-sm: 4px;
   --radius-md: 8px;
@@ -111,13 +111,13 @@ section:nth-child(even) {
 .btn-primary {
   background-color: var(--primary);
   color: var(--white);
-  box-shadow: 0 4px 15px rgba(0, 95, 115, 0.3);
+  box-shadow: 0 4px 15px rgba(165, 0, 52, 0.35);
 }
 
 .btn-primary:hover {
   background-color: var(--primary-light);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(10, 147, 150, 0.4);
+  box-shadow: 0 6px 20px rgba(195, 0, 62, 0.45);
 }
 
 .btn-outline {

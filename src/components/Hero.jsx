@@ -9,11 +9,27 @@ const Hero = () => {
       <div className="container hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
-            Excellence in <br/><span className="text-gradient">Every Wash</span>
+            <span className="text-gradient">Washtec</span>
           </h1>
-          <p className="hero-subtitle">
-            Your Gateway to World-Class Laundry Equipment. Authorized Distributor for LG, Speed Queen, Pony & IPSO.
-          </p>
+          <div className="hero-subtitle">
+            <p className="hero-subtitle-text">
+              Authorised Regional Distributor For
+            </p>
+            <div className="hero-brands" aria-label="Authorized distributor brands">
+              <div className="hero-brand-item">
+                <img src="/lg%20logo.png" alt="LG" className="hero-brand-logo" />
+              </div>
+              <div className="hero-brand-item">
+                <img src="/speed%20queen.png" alt="Speed Queen" className="hero-brand-logo" />
+              </div>
+              <div className="hero-brand-item">
+                <img src="/pony.png" alt="Pony" className="hero-brand-logo" />
+              </div>
+              <div className="hero-brand-item">
+                <img src="/ipso.png" alt="IPSO" className="hero-brand-logo" />
+              </div>
+            </div>
+          </div>
           <div className="hero-cta">
             <a href="#contact" className="btn btn-primary hero-btn">
               Get Started <ArrowRight size={20} />

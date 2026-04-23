@@ -40,7 +40,7 @@ const Footer = () => {
             <h3>Contact</h3>
             <ul>
               <li><a href="#contact">Contact Us</a></li>
-              <li>info@washtec.com</li>
+              <li>washteclaundryequipment@gmail.com</li>
               <li>+1 (555) 123-4567</li>
             </ul>
           </div>

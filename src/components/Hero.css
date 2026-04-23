@@ -3,7 +3,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url('/hero_banner.png');
+  background-image: url('/lg%20bak.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -17,7 +17,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(0, 18, 25, 0.9) 0%, rgba(0, 95, 115, 0.7) 100%);
+  background: linear-gradient(135deg, rgba(26, 4, 11, 0.88) 0%, rgba(165, 0, 52, 0.68) 100%);
   z-index: 1;
 }
 
@@ -47,12 +47,35 @@
 }
 
 .hero-subtitle {
-  font-size: 1.5rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.92);
   margin-bottom: 2.5rem;
   max-width: 650px;
   animation: fadeUp 1s ease-out 0.2s;
   animation-fill-mode: both;
+}
+
+.hero-subtitle-text {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.hero-brands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.hero-brand-item {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.hero-brand-logo {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  display: block;
 }
 
 .hero-cta {
@@ -103,6 +126,10 @@
   }
   
   .hero-subtitle {
+    max-width: 100%;
+  }
+
+  .hero-subtitle-text {
     font-size: 1.3rem;
   }
 }
@@ -122,9 +149,26 @@
   }
   
   .hero-subtitle {
-    font-size: 1rem;
     margin-bottom: 1.5rem;
     max-width: 100%;
+  }
+
+  .hero-subtitle-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-brands {
+    gap: 0.6rem;
+  }
+
+  .hero-brand-item {
+    padding: 0;
+  }
+
+  .hero-brand-logo {
+    width: 72px;
+    height: 72px;
   }
   
   .hero-cta {
@@ -150,6 +194,15 @@
   }
   
   .hero-subtitle {
+    margin-bottom: 1.25rem;
+  }
+
+  .hero-subtitle-text {
     font-size: 0.95rem;
+  }
+
+  .hero-brand-logo {
+    width: 60px;
+    height: 60px;
   }
 }

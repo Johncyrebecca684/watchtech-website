@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Wrench, HeartHandshake, PackageOpen, Headset, Presentation, ChevronDown, ChevronUp } from 'lucide-react';
+import { Wrench, HeartHandshake, Headset, ChevronDown, ChevronUp } from 'lucide-react';
 import './Services.css';
 
 const Services = () => {
@@ -11,29 +11,15 @@ const Services = () => {
       subtitle: "Smart setup support for flawless performance.",
       icon: <Wrench size={24} />,
       points: [
-        "Step-by-step guidance for proper machine placement and utility connections.",
-        "Clear instructions to ensure smooth integration into your facility.",
-        "Focused on helping your team achieve efficiency from day one."
+        "Efficient and professional installation for seamless operations from day one."
       ]
     },
     {
-      title: "Basic Maintenance Assistance",
-      subtitle: "Keep your machines reliable with simple upkeep.",
+      title: "On-Site Maintenance",
+      subtitle: "Reliable support to keep operations smooth.",
       icon: <HeartHandshake size={24} />,
       points: [
-        "Practical advice on routine care to extend equipment life.",
-        "Scheduled check-ins to identify early signs of wear.",
-        "Support designed to minimize downtime without complex service contracts."
-      ]
-    },
-    {
-      title: "Spare Parts Supply",
-      subtitle: "Authentic parts, delivered when you need them.",
-      icon: <PackageOpen size={24} />,
-      points: [
-        "Quick access to genuine manufacturer components.",
-        "Ensures consistent performance and long-term durability.",
-        "Reduces delays by keeping your operations running smoothly."
+        "Comprehensive on-site maintenance and support to keep your business running smoothly."
       ]
     },
     {
@@ -41,19 +27,7 @@ const Services = () => {
       subtitle: "Expert help, anytime, anywhere.",
       icon: <Headset size={24} />,
       points: [
-        "Troubleshooting guidance over phone or online.",
-        "Operational tips to resolve issues quickly.",
-        "Saves time by avoiding unnecessary service visits."
-      ]
-    },
-    {
-      title: "Training & Orientation",
-      subtitle: "Confidence through knowledge and hands-on learning.",
-      icon: <Presentation size={24} />,
-      points: [
-        "Introductory sessions for staff to operate machines effectively.",
-        "Practical demonstrations on safe and efficient usage.",
-        "Builds long-term capability within your team."
+        "Get expert advice and troubleshooting with our free remote consultation services."
       ]
     }
   ];
