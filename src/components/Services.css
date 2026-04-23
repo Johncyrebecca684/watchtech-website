@@ -148,6 +148,8 @@
 .service-showcase p {
   color: var(--text-muted);
   font-size: 1.1rem;
+  position: relative;
+  z-index: 2;
 }
 
 @media (max-width: 1024px) {
@@ -224,9 +226,6 @@
   .service-points {
     font-size: 0.9rem;
   }
-}
-  position: relative;
-  z-index: 2;
 }
 
 .showcase-bg {
