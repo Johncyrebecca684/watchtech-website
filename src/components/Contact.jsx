@@ -96,7 +96,7 @@ const Contact = () => {
                 <div className="info-icon"><MapPin size={20} /></div>
                 <div>
                   <h4>Head Office</h4>
-                  <p>123 Laundry Avenue, Industrial District, City, Country</p>
+                  <p>85, Jnanakhi Residency Pattangere main Road, Bengaluru Bengaluru Urban, Karnataka, 560098</p>
                 </div>
               </div>
 
@@ -104,7 +104,7 @@ const Contact = () => {
                 <div className="info-icon"><Phone size={20} /></div>
                 <div>
                   <h4>Phone</h4>
-                  <p>+91 99010 97311</p>
+                  <p>+91 9901097311</p>
                 </div>
               </div>
 
@@ -112,7 +112,7 @@ const Contact = () => {
                 <div className="info-icon"><Mail size={20} /></div>
                 <div>
                   <h4>Email</h4>
-                  <p>washteclaundryequipment@gmail.com</p>
+                  <p>chiranjeevi.d@washteclaundry.com</p>
                 </div>
               </div>
 

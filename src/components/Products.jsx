@@ -67,6 +67,7 @@ const Products = () => {
       machineImage: '/Speed%20Queen%20Quantum%20Touch%20Washer%20Extractor%2027kg.png',
       ribbonDescription: 'Experience ultimate performance and user-friendly operation with the Speed Queen Quantum Touch Washer Extractor. Designed for commercial use, it ensures durability and efficiency.',
       customClass: 'sq-touch-image',
+      topRightTitle: 'Speed Queen 27kg washer',
     },
     {
       id: 'sq-touch-washer-18kg',
@@ -75,6 +76,7 @@ const Products = () => {
       machineImage: '/Speed%20Queen%20Quantum%20Touch%20Washer%20Extractor.png',
       ribbonDescription: 'Experience ultimate performance and user-friendly operation with the Speed Queen Quantum Touch Washer Extractor. Designed for commercial use, it ensures durability and efficiency.',
       customClass: 'sq-touch-image',
+      topRightTitle: 'Speed Queen 18kg washer',
     },
     {
       id: 'sq-tumble-dryer-25kg',
@@ -84,6 +86,7 @@ const Products = () => {
       ribbonDescription: 'Designed for commercial performance and reliability, the Speed Queen Commercial Tumble Dryer 25kg offers user-friendly operation, advanced programmability, and a robust design perfect for VEND and OPL setups.',
       customClass: 'sq-touch-image',
       cardClass: 'sq-smaller-name',
+      topRightTitle: 'Speed Queen 25 kg dryer',
     },
     {
       id: 'sq-tumble-dryer-16kg',
@@ -93,6 +96,7 @@ const Products = () => {
       ribbonDescription: 'Designed for commercial performance and reliability, the Speed Queen Commercial Tumble Dryer 16kg offers user-friendly operation, advanced programmability, and a robust design perfect for VEND and OPL setups.',
       customClass: 'sq-touch-image',
       cardClass: 'sq-smaller-name',
+      topRightTitle: 'Speed Queen 16kg dryer',
     },
   ];
 
@@ -127,6 +131,7 @@ const Products = () => {
         <div className="machines-showcase" aria-label="Speed Queen machines showcase" style={{ marginTop: '3rem' }}>
           {speedQueenMachines.map((machine) => (
             <article key={machine.id} className={`card ${machine.cardClass || ''}`} data-machine-name={machine.type}>
+              {machine.topRightTitle && <span className="card__top-right-title">{machine.topRightTitle}</span>}
               <div className="card__body">
                 <div className="card__icon">
                   {machine.machineImage && (

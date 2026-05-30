@@ -57,8 +57,8 @@ const Footer = () => {
             <h3>Contact</h3>
             <ul>
               <li><a href="#contact">Contact Us</a></li>
-              <li>washteclaundryequipment@gmail.com</li>
-              <li>+91 99010 97311</li>
+              <li>chiranjeevi.d@washteclaundry.com</li>
+              <li>+91 9901097311</li>
             </ul>
           </div>
         </div>
